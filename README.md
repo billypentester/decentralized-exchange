@@ -75,6 +75,10 @@ The Decentralized Exchange project aims to create a decentralized trading platfo
 ![App Screenshot](https://raw.githubusercontent.com/billypentester/decentralized-exchange/main/screenshots/screencapture-localhost-3000-2023-07-16-12_15_43.png)
 ![App Screenshot](https://raw.githubusercontent.com/billypentester/decentralized-exchange/main/screenshots/screencapture-localhost-3000-swap-2023-07-16-12_10_31.png)
 ![App Screenshot](https://raw.githubusercontent.com/billypentester/decentralized-exchange/main/screenshots/screencapture-localhost-3000-tokens-create-2023-07-16-12_10_53.png)
+
+![App Screenshot](https://raw.githubusercontent.com/billypentester/decentralized-exchange/main/screenshots/screencapture-localhost-3000-tokens-top-2023-07-16-13_11_17.png)
+![App Screenshot](https://raw.githubusercontent.com/billypentester/decentralized-exchange/main/screenshots/screencapture-localhost-3000-tokens-stats-0x464f5831DbB146DaCe9F28fb106b893cfcE37034-2023-07-16-13_11_53.png)
+
 ![App Screenshot](https://raw.githubusercontent.com/billypentester/decentralized-exchange/main/screenshots/screencapture-localhost-3000-pools-create-2023-07-16-12_14_31.png)
 ![App Screenshot](https://raw.githubusercontent.com/billypentester/decentralized-exchange/main/screenshots/screencapture-localhost-3000-bridge-use-2023-07-16-12_15_08.png)
 
