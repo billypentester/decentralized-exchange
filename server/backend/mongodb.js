@@ -13,7 +13,7 @@ const web3Bsc= new Web3(BSCurl)
 
 const TokenABI = require("../ABI/TokenABI.json")
 const NFTManagerABI = require("../ABI/ManagerABI.json")
-mongoose.connect('mongodb://0.0.0.0:27017/HalalSwap').then(
+mongoose.connect('mongodb+srv://billypentester:webpass136@cluster0.zxxm5.mongodb.net/decentralized-exchange?retryWrites=true&w=majority').then(
     console.log('connected')
 )
 
