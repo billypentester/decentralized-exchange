@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "6453c5b13a3cb66329c4702d"
+  },
+  "name": "ababa/sbshfd",
+  "fee": 0.3,
+  "tickSpacing": 60,
+  "pool": "0xAb46dB94242CC3b5b5fB8A7A95ab1A9e29349B81",
+  "verified": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6453e5b0c43a37e9425a0dbd"
+  },
+  "name": "ababa/abdullah",
+  "fee": 0.05,
+  "token0": "0xBc24A4D11c8358E2aa88894Ab5aedC68e7258188",
+  "token1": "0xFEbc4c67CFd88F0B8EF74094EE5dEF86Cc0a0EAb",
+  "pool": "0x42401866A84bB7F7Ed5CDed2e8Ad32a6d2333B1D",
+  "tickSpacing": 10,
+  "verified": false,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "645ccd7b4c14c79827549862"
+  },
+  "name": "KYZ/DTX",
+  "fee": 0.3,
+  "token0": "0x464f5831dbb146dace9f28fb106b893cfce37034",
+  "token1": "0x4b919a6a9e7f7e382263579f80a4b41f0625a14a",
+  "pool": "0x0C9727E7311df3E57ea167097A531dBC5Ec1931d",
+  "tickSpacing": 60,
+  "verified": true
+}]

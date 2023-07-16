@@ -1,0 +1,110 @@
+  .boxedradio label {
+    padding: 10px;
+    width: 100%;
+    border: solid 2px #ccc;
+    border-radius: 10px;
+    transition: all 0.3s;
+  }
+  
+
+  .boxedradio input[type="radio"] {
+    display: none;
+  }
+  
+  .boxedradio input[type="radio"]:checked + label {
+    border: solid 2px #000;
+    border-radius: 10px;
+  }
+
+  
+  .boxedcheckbox label {
+    padding: 10px;
+    width: 100%;
+    border: solid 2px #ccc;
+    border-radius: 10px;
+    transition: all 0.3s;
+  }
+  
+  .boxedcheckbox input[type="checkbox"] {
+    display: none;
+  }
+  
+  .boxedcheckbox input[type="checkbox"]:checked + label {
+    border: solid 2px #000;
+    border-radius: 10px;
+  }
+  
+
+  .range-svg {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .range-track {
+    fill: #f1f1f1;
+    stroke: none;
+  }
+  
+  .range-selection {
+    fill: #6c757d;
+    stroke: none;
+    transform-origin: left center;
+    transform-box: fill-box;
+    transform: scaleX(0);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .range-handle {
+    fill: #6c757d;
+    stroke: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .range-handle:hover {
+    transform: scale(1.1);
+  }
+  
+  .range-handle--left {
+    transform-origin: center center;
+  }
+  
+  .range-handle--right {
+    transform-origin: center center;
+  }
+  
+  .range-selection.active {
+    transform: scaleX(1);
+  }
+
+
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 4px 8px;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+  
+  .tooltip:hover::after {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+
+  

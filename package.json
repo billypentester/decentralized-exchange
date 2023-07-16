@@ -1,0 +1,18 @@
+{
+  "name": "decentralized-exchange",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "install-client":"cd client && npm install --force && cd ..",
+    "install-server":"cd server && npm install && cd ..",
+    "start-client": "cd client && npm start && cd ..",
+    "start-server": "cd server && cd backend && node mongodb.js && cd .."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,24 @@
+const Web3  = require("web3");
+const abi = require("./ABI/abi.json")
+const address="0x8b8951C71467B931c37af1a3d67f2d1752eDF69E"
+var url="wss://polygon-mumbai.g.alchemy.com/v2/MXTlA2FpRDF3lP5pMRFjWA8C-o-Khq8b";
+const privateKey="ed5e2f13218066fb70bd22f2cb2467924b42fb4c173f4518b54aa683791d17cd"
+const web3=new Web3(url);
+// console.log(web3)
+const account= web3.eth.accounts.privateKeyToAccount(privateKey);
+console.log(account.address)
+const contract= new web3.eth.Contract(abi,address);
+async function Bridge(){
+   
+const tx =await contract.methods.fee().call().then(console.log)
+
+}
+contract.events.TokenCreated({},(error,data)=>{
+    console.log(data)
+})
+
+
+// Bridge()
+
+// console.log(tx);
+
